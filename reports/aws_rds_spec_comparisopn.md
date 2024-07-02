@@ -14,9 +14,9 @@ High Specコンテナ、Low Specコンテナの二種類を用意し、下記テ
 ### db.t3.xlarge
 **スペック**
 4 vCPU, 16 GiB RAM
-![](./images/db-t3-micro_spec.png)
+![](./images/db-t3-xlarge_spec.png)
 
-### db.t3.small
+### db.t3.micro
 **スペック**
 2 vCPU, 4 GiB RAM
 ![](./images/db-t3-micro_spec.png)
