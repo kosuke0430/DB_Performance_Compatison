@@ -46,6 +46,10 @@
     </details>
 * generate_sql.py
     * 引数に数字を指定し、x00万件のデータを生成することができる
+    * 例: 100万件のデータを生成する場合
+        ```
+        python generate_sql.py 1
+        ```
 
 ## テストレポート
 1. [Dockerを用いた性能比較](./reports/docker_spec_comparision.md)
