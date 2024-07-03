@@ -19,8 +19,8 @@ docker run --name mysql-high-spec \
     -e MYSQL_ROOT_PASSWORD=root \
     --memory=4g \
     --cpus=2 \
-    -v ~/tmp/db-spec-comparision/highspec:/var/lib/mysql \
-    -v ~/tmp/db-spec-comparision:/var/app \
+    -v ./highspec:/var/lib/mysql \
+    -v ./scripts:/var/app \
     -d mysql:latest
 ```
 ### Low Spec
@@ -31,8 +31,8 @@ docker run --name mysql-low-spec \
     -e MYSQL_ROOT_PASSWORD=root \
     --memory=1g \
     --cpus=1 \
-    -v ~/tmp/db-spec-comparision/lowspec:/var/lib/mysql \
-    -v ~/tmp/db-spec-comparision:/var/app \
+    -v ./lowspec:/var/lib/mysql \
+    -v ./scripts:/var/app \
     -d mysql:latest
 ```
 ## テスト結果
